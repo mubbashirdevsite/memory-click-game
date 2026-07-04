@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Click Game</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Header -->
+        <header class="header">
+
+            <h1>🧠 Memory Click Game</h1>
+            <p>Find all matching pairs</p>
+
+        </header>
+
+        <!-- Stats -->
+        <section class="stats">
+
+            <div>Moves: <span id="moves">0</span></div>
+            <div>Matches: <span id="matches">0</span></div>
+            <div>Time: <span id="time">0s</span></div>
+            <div>Score: <span id="score">0</span></div>
+
+        </section>
+
+        <!-- Stars -->
+        <div class="stars" id="stars">★★★★★</div>
+
+        <!-- Game Board -->
+        <section class="board" id="board"></section>
+
+        <!-- Controls -->
+        <button id="restartBtn">🔄 Restart Game</button>
+
+        <!-- Win Message -->
+        <div id="winMessage" class="win-message"></div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
